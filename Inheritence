@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+class Animal 
+{
+     
+void sleep() 
+{
+        
+System.out.println("animal sleeps...");
+  
+  }
+     
+ 
+void eat()
+ {
+       
+ System.out.println("animal eats...");
+ 
+   }
+
+}
+
+class Bird extends Animal{
+void fly()
+{
+
+System.out.println("bird flying");
+
+}
+}
+public class inheritence
+{
+
+public static void main(String []args)
+{
+   
+Bird b=new Bird();
+ 
+ b.sleep();
+   
+ b.eat();
+
+ b.fly();
+}
+
+}
+
